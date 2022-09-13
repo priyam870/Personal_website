@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Contact Info</h1>
-    <hr>
+    <hr size="3" noshade>
     <h3>Connect with me at :</h3>
     <ul>
         <li><a href="https://www.linkedin.com/in/priyam-agarwal-2ab551147/" target="_blank">LinkedIn</a></li>
@@ -17,17 +17,19 @@
         <br>
         <li><a href="https://www.facebook.com/agarwalpriyam.98/" target="_blank">Facebook</a></li>
     </ul>
-    <p>Email Me at <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfpsXhpNXmWZDBJkSFGTWWbCzwkfPbHdpvngpFltcWKJXxtpSVffhWmPSvhNSFjnsRkLZL">agarwalpriyam.98@gamil.com</a></p>
+    <p>Email me at <u><b>agarwalpriyam.98@gamil.com</b></u></p>
+
+    <hr size="2" noshade>
 
     <h3>Send me a Message</h3>
-    <form action="index.html" name="Send a Message" method="post">
+    <form action="mailto: agarwalpriyam.98@gmail.com" name="Send a Message" method="post" enctype="text/plain">
         <table>
             <tr>
                 <td>
                     <label for="email">Email</label>
                 </td>
                 <td>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="User email" id="email">
                 </td>
             </tr>
             <tr>
@@ -51,7 +53,7 @@
                     <label for="message">Message</label>
                 </td>
                 <td>
-                    <input type="text" name="message" id="message" value="Type your message">
+                    <textarea name="User message" id="" cols="30" rows="5"></textarea>
                 </td>
             </tr>
             <tr>
@@ -59,13 +61,13 @@
                     <label for="gender">Gender</label>
                 </td>
                 <td>
-                    <input type="radio" id="genderMale" name="gender" value="" checked>
+                    <input type="radio" id="genderMale" name="User gender" value="Male" checked>
                     <label for="genderMale">Male</label>
-                    <input type="radio" id="genderFemale" name="gender" value="Female">
+                    <input type="radio" id="genderFemale" name="User gender" value="Female">
                     <label for="genderFemale">Female</label>
                 </td>
             </tr>
         </table>
-        <input type="submit" value="Send">
+        <input type="submit" value="Send" style="height: 25px; width: 100px">
     </form>
 </html>
