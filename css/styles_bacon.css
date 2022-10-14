@@ -1,0 +1,45 @@
+/****************** Tag Selectors ************/
+
+body {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    color: rgb(139, 58, 1);
+}
+
+p {
+    font-size: 20px;
+}
+
+/* img:hover {
+    background-color: gold;
+    height: 200px;
+    width: 200px;
+} */
+
+/********************* Class selectors *******************/
+
+.bacon {
+    background-color: greenyellow;
+}
+
+.broccoli {
+    background-color: red;
+}
+
+.class2 {
+    background-color: blue;
+}
+
+/******************** id Selectors ************************/
+
+/* #broccoli {
+    background-color:red;
+} */
+
+#brocoli :hover{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+}
